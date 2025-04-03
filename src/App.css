@@ -1,0 +1,44 @@
+.links{
+border: 2px solid black;
+border-radius: 10px;
+width: 50%;
+height: 40px;
+padding:9px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+text-decoration: none;
+
+background-color:rgb(240, 129, 250);
+font-size: 28px;
+}
+
+.links:hover{
+scale: 1.1;
+
+}
+
+.links{
+  color: #000;
+}
+
+a:active{
+color: purple;
+}
+
+.container-app{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  background: hsla(238, 100%, 71%, 1);
+  background: linear-gradient(90deg, hsla(238, 100%, 71%, 1) 0%, hsla(258, 25%, 82%, 1) 57%, hsla(295, 100%, 84%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(238, 100%, 71%, 1) 0%, hsla(258, 25%, 82%, 1) 57%, hsla(295, 100%, 84%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(238, 100%, 71%, 1) 0%, hsla(258, 25%, 82%, 1) 57%, hsla(295, 100%, 84%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#696eff", endColorstr="#CCC5DC", GradientType=1 );;  
+}
